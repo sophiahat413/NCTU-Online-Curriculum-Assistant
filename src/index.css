@@ -1,0 +1,57 @@
+body {
+    font-family: 'Noto Sans CJK TC';
+    background: #F5F5F5;
+    margin: 0;
+}
+footer {
+  	padding: 8px 0px 8px 0px;
+	font-size: 8px;
+	color: #FCFCFC;
+    background-color:#6C6C6C;
+    text-align:center;
+    font-family: 'Noto Sans CJK TC';
+  	font-weight:  400;
+    margin-top: 20px;
+}
+
+#id{
+  height: 100vh;
+}
+
+#Head {
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+/*
+ * react-circular-progressbar styles
+ *
+ * All of the styles in this file are optional and configurable!
+ */
+
+.CircularProgressbar {
+    /*
+     * This fixes an issue where the CircularProgressbar svg has
+     * 0 width inside a "display: flex" container, and thus not visible.
+     *
+     * If you're not using "display: flex", you can remove this style.
+     */
+    width: 100%;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #3e98c7;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+    stroke: #d6d6d6;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+    fill: #3e98c7;
+    font-size: 20px;
+    dominant-baseline: middle;
+    text-anchor: middle;
+}
